@@ -30,7 +30,7 @@ while running:
 
     if inp == '2': # if input is 2
         for emp in database: # for each employee in our database(list)
-            print(emp.__dict__) # showing a dictionary of all employees, instead of memory location of the object like "<__main__.employee object at 0x0000000001EBF668>"
+            print("-->", emp.__dict__) # showing a dictionary of all employees, instead of memory location of the object like "<__main__.employee object at 0x0000000001EBF668>"
 
     if inp == '3': # if input is 3
         break # end the loop
